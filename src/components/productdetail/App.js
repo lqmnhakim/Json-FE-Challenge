@@ -41,13 +41,31 @@ const ProductListing = () => {
   return (
     <div>
       <div className='cart-system'>
-        <h3>Cart</h3>
-          <table>
+      <div className='cart-title'>
+        <h3>Shopping Cart</h3>
+      </div>
+          <table height={'40%'}>
               <tr>
-                <th>Photo</th>
-                <th>Quantity</th>
-                <th>Product Name</th>
-                <th>Price</th>
+                <th>
+                  <div className='table-style'>
+                    Photo
+                  </div>
+                </th>
+                <th>
+                  <div className='table-style'>
+                    Quantity
+                  </div>
+                </th>
+                <th>
+                  <div className='table-style'>
+                    Product Name
+                  </div>
+                </th>
+                <th>
+                  <div className='table-style'>
+                    Price
+                  </div>
+                </th>
               </tr>
             {cartItems.map((cartProduct, index) => (
               <tr key={index}>

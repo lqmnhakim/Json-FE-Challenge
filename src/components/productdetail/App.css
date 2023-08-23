@@ -48,3 +48,18 @@ a {
 .cart-thumbnail img {
   width: 100px;
 }
+.cart-system {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff8d63;
+  padding: 5%;
+}
+.table-system {
+  padding: 2%;
+}
+.cart-title {
+  display: flex;
+  justify-content: center;
+}
